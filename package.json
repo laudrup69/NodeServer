@@ -1,0 +1,25 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "small server written node and typescript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laudrup69/NodeServer.git"
+  },
+  "author": "Félix Amorós",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laudrup69/NodeServer/issues"
+  },
+  "homepage": "https://github.com/laudrup69/NodeServer#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

@@ -1,2 +1,2 @@
 # NodeServer
-Petit Servidor en Node. (practices)
+Small Server in Node. (practices)

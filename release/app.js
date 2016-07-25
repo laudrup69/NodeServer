@@ -18,7 +18,7 @@ app.set('port', port);
 app.use('/', sample_1.default);
 app.use(function (req, res, next) {
     var err = new Error('Not Found');
-    (err).status = 404;
+    err['status'] = 404;
     next(err);
 });
 var server = http.createServer(app);

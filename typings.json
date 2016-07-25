@@ -1,7 +1,7 @@
 {
   "name": "nodeserver",
   "dependencies": {
-    "debug": "registry:npm/debug#2.0.0+20160511151334"
+    "debug": "registry:npm/debug#2.0.0+20160723033700"
   },
   "globalDependencies": {
     "body-parser": "registry:dt/body-parser#0.0.0+20160619023215",

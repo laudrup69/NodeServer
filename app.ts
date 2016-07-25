@@ -44,7 +44,7 @@ var server = http.createServer(app);
 // indicated port listen 
 server.listen(port);
 
-server.on('error', (err) => {
+server.on('error', (err: any) => {
     console.error(err);
 });
 

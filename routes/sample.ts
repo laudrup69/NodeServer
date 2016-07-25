@@ -1,5 +1,3 @@
-///
-
 import * as express from 'express';
 let router = express.router()
 

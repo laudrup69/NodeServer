@@ -23,15 +23,11 @@ app.use(function (req, res, next) {
 });
 var server = http.createServer(app);
 server.listen(port);
-server.on('error', (err) =  & gt);
-{
+server.on('error', function (err) {
     console.error(err);
-}
-;
-server.on('listening', () =  & gt);
-{
+});
+server.on('listening', function () {
     var port = server.address().port;
     debug('Listening on ' + port);
-}
-;
+});
 //# sourceMappingURL=app.js.map

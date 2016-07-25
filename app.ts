@@ -31,10 +31,10 @@ next(err);
 
 var server = http.createServer(app);
 server.listen(port);
-server.on('error', (err) =&gt; {
+server.on('error', (err) => {
 console.error(err);
 });
-server.on('listening', () =&gt; {
+server.on('listening', () => {
 var port = server.address().port;
 debug('Listening on ' + port);
 });

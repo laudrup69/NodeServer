@@ -17,12 +17,14 @@ server.ts contains all code references to server.
 
 
 Use
-The first option is default ... nothing to do !!
 
-The second option.
-Rename the file app.ts to filebck.ts (or similar)
-Rename the file app2.ts to app.ts
-
+1.- Locale in directory aplication 
+2.- (compile) 
+    .\node_modules\.bin\tsc --noImplicitAny --suppressImplicitAnyIndexErrors
+3.- (run) 
+    node ./release/app.js 
+    (or)
+    node ./release/app2.js 
 
 BUGS
 problems trying errors

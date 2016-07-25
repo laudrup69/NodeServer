@@ -60,13 +60,13 @@ export class Server {
     private onError(err : any, req: express.Request, res: express.Response, next: express.NextFunction) {
         console.error(err);
         //err.status = HttpStatusCode.NotFound;
-        let notFoundError: NotFoundError = new NotFoundError("Resource not found."); 
+        //let notFoundError: NotFoundError = new NotFoundError("Resource not found."); 
 
-        switch (err.getStatusCode()) {
-            case HttpStatusCode.NotFound:
-                res.status(HttpStatusCode.NotFound).send(notFoundError.message);
-                break;
-        }   
+        //switch (err.getStatusCode()) {
+        //    case HttpStatusCode.NotFound:
+        //        res.status(HttpStatusCode.NotFound).send(notFoundError.message);
+        //        break;
+        //}   
     }
 
     /**
@@ -78,7 +78,7 @@ export class Server {
      */
     private routes(){
         // get router
-        let router : express.Routers;
+        let router : express.Router;
         router = express.Router();
 
         // create routes

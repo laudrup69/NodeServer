@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Configure static paths 
 app.use(express.static(path.join(staticsPath, 'public')));
 
-// Purt server 
+// Port server 
 let port = process.env.PORT || 3000;
 
 app.set('port', port);

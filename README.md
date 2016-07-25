@@ -23,3 +23,7 @@ The second option.
 Rename the file app.ts to filebck.ts (or similar)
 Rename the file app2.ts to app.ts
 
+
+BUGS
+problems trying errors
+
